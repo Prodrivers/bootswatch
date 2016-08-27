@@ -6991,7 +6991,7 @@ a.list-group-item-danger.active:focus {
 .hero-image .hero-subtitle {
   margin: 25px auto;
   padding: 10px 15px;
-  max-width: 90%;
+  max-width: 600px;
   text-shadow: 0 0 2px #e6e6e6;
   background-color: rgba(0, 0, 0, 0.2);
 }
