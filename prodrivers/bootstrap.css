@@ -6760,6 +6760,9 @@ button.close {
   background-color: #fff;
   color: #19c2c8;
 }
+.navbar-no-margin {
+  margin-bottom: 0;
+}
 .navbar-nav li a {
   font-size: 14px;
   font-weight: bold;
