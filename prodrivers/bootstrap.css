@@ -7042,8 +7042,8 @@ a.list-group-item-danger.active:focus {
   background-color: #222222;
 }
 .site-footer {
-  background-color: #2e2e2e;
-  color: #D0D0D0;
+  color: #ffffff;
+  background-color: #333333;
   padding: 20px 0;
   text-align: center;
 }
@@ -7066,9 +7066,9 @@ a.list-group-item-danger.active:focus {
   text-align: center;
   font-size: 20px;
   line-height: 32px;
-  color: #fff;
+  color: #ffffff;
   opacity: 0.8;
-  background-color: #555;
+  background-color: #555555;
 }
 .site-footer .social-icons a:hover {
   opacity: 1;
