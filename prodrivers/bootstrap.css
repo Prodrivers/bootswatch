@@ -6756,6 +6756,9 @@ button.close {
     display: none !important;
   }
 }
+.navbar {
+  border: none;
+}
 .navbar-inverse .badge {
   background-color: #fff;
   color: #19c2c8;
