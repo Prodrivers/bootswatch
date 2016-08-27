@@ -7042,12 +7042,12 @@ a.list-group-item-danger.active:focus {
   background-color: #222222;
 }
 .site-footer {
-  color: #ffffff;
+  color: #999999;
   background-color: #333333;
   padding: 20px 0;
 }
 .site-footer h5 {
-  font-size: 20px;
+  font-size: 14px;
   color: inherit;
 }
 @media screen and (min-width: 768px) {
