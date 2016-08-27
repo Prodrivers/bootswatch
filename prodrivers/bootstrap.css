@@ -7075,8 +7075,8 @@ a.list-group-item-danger.active:focus {
 .site-footer .social-icons a i {
   margin: 6px;
 }
-@media screen and (min-width: 768px) {
-  .site-footer h5 {
-    text-align: left;
+@media screen and (max-width: 768px) {
+  .site-footer {
+    text-align: center;
   }
 }
