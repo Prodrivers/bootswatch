@@ -15,7 +15,7 @@
 
 .navbar {
   border: none;
-  
+
   &-inverse {
 
     .badge {
@@ -313,6 +313,92 @@ a.list-group-item {
 
 .popover {
   color: @text-color;
+}
+
+.hero-image {
+  margin-bottom: 0;
+  padding: 100px auto;
+  text-align: center;
+  color: @hero-image-color;
+  background-color: @hero-image-bg;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+
+  .hero-title,
+  .hero-subtitle {
+    font-weight: 500;
+  }
+
+  .hero-title {
+    text-shadow: 0 0 @hero-image-shadow-size @hero-image-shadow-color;
+  }
+
+  .hero-subtitle {
+    margin: 25px auto;
+    padding: 10px 15px;
+    max-width: @hero-image-subtitle-width;
+    text-shadow: 0 0 @hero-image-subtitle-shadow-size @hero-image-subtitle-shadow-color;
+    background-color: @hero-image-subtitle-bg;
+  }
+
+  .btn {
+    margin: 0.5em;
+  }
+
+  &-inverse {
+    color: @hero-image-inverse-color;
+    background-color: @hero-image-inverse-bg;
+
+    .hero-title {
+      text-shadow: 0 0 @hero-image-shadow-size @hero-image-shadow-inverse-color;
+    }
+
+    .hero-subtitle {
+      text-shadow: 0 0 @hero-image-subtitle-shadow-size @hero-image-subtitle-shadow-inverse-color;
+      background-color: @hero-image-subtitle-inverse-bg;
+    }
+  }
+}
+
+.hero-icons {
+  padding: 40px 0;
+  color: @hero-icons-color;
+  background-color: @hero-icons-bg;
+
+  .icon {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .icon .glyphicon,
+  .icon .fa {
+    font-size: @hero-icons-icon-size;
+  }
+
+  &-inverse {
+    color: @hero-icons-inverse-color;
+    background-color: @hero-icons-inverse-bg;
+  }
+}
+
+
+.hero-simple {
+  padding: 50px 0;
+  color: @hero-simple-color;
+  background-color: @hero-simple-bg;
+  text-align: center;
+
+  p {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    font-size: @hero-simple-font-size;
+  }
+
+  &-inverse {
+    color: @hero-simple-inverse-color;
+    background-color: @hero-simple-inverse-bg;
+  }
 }
 
 // Footer ==============================================================

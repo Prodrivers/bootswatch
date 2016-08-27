@@ -6970,6 +6970,77 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #333333;
 }
+.hero-image {
+  margin-bottom: 0;
+  padding: 100px auto;
+  text-align: center;
+  color: inherit;
+  background-color: #e6e6e6;
+  background-attachment: fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.hero-image .hero-title,
+.hero-image .hero-subtitle {
+  font-weight: 500;
+}
+.hero-image .hero-title {
+  text-shadow: 0 0 5px #e6e6e6;
+}
+.hero-image .hero-subtitle {
+  margin: 25px auto;
+  padding: 10px 15px;
+  max-width: 90%;
+  text-shadow: 0 0 2px #e6e6e6;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.hero-image .btn {
+  margin: 0.5em;
+}
+.hero-image-inverse {
+  color: #ffffff;
+  background-color: #222222;
+}
+.hero-image-inverse .hero-title {
+  text-shadow: 0 0 5px #222222;
+}
+.hero-image-inverse .hero-subtitle {
+  text-shadow: 0 0 2px #222222;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.hero-icons {
+  padding: 40px 0;
+  color: #ffffff;
+  background-color: #19c2c8;
+}
+.hero-icons .icon {
+  margin-top: 15px;
+  text-align: center;
+}
+.hero-icons .icon .glyphicon,
+.hero-icons .icon .fa {
+  font-size: 60px;
+}
+.hero-icons-inverse {
+  color: #ffffff;
+  background-color: #222222;
+}
+.hero-simple {
+  padding: 50px 0;
+  color: inherit;
+  background-color: transparent;
+  text-align: center;
+}
+.hero-simple p {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-size: 17.5px;
+}
+.hero-simple-inverse {
+  color: #ffffff;
+  background-color: #222222;
+}
 .site-footer {
   background-color: #2e2e2e;
   color: #D0D0D0;
