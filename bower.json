@@ -1,11 +1,14 @@
 {
-  "name": "bootswatch",
+  "name": "bootswatch-prodrivers",
   "description": "Bootswatch is a collection of themes for Bootstrap.",
-  "author": "Thomas Park",
+  "authors": [
+    "Horgeon <me@horgeon.fr>",
+    "thomaspark <thomas@bootswatch.com>"
+  ],
   "homepage": "http://bootswatch.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thomaspark/bootswatch.git"
+    "url": "git://github.com/horgeon/bootswatch-prodrivers.git"
   },
   "license": "MIT",
   "ignore": [

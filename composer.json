@@ -1,8 +1,12 @@
 {
-    "name": "thomaspark/bootswatch",
+    "name": "horgeon/bootswatch-prodrivers",
     "description": "Themes for Bootstrap",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Horgeon",
+            "email": "me@horgeon.fr"
+        },
         {
             "name": "thomaspark",
             "email": "thomas@bootswatch.com"
@@ -28,6 +32,7 @@
                 "journal/*",
                 "lumen/*",
                 "paper/*",
+                "prodrivers/*",
                 "readable/*",
                 "sandstone/*",
                 "simplex/*",
