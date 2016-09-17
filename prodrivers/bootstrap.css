@@ -6766,6 +6766,14 @@ button.close {
 .navbar-no-margin {
   margin-bottom: 0;
 }
+.navbar .navbar-brand.logo {
+  padding: 0;
+}
+.navbar .navbar-brand.logo > img {
+  display: block;
+  height: 50px;
+  margin: 17px 0 17px 10px;
+}
 .navbar-nav li a {
   font-size: 14px;
   font-weight: bold;
