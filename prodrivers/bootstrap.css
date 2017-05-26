@@ -7160,6 +7160,13 @@ header.page-image h1 {
   color: #E5E5E5;
   text-shadow: 0 0 2em #555;
 }
+.page-content {
+  margin-top: 30px;
+  padding: 1em;
+  padding-bottom: 3em;
+  color: #333333;
+  line-height: 1.7em;
+}
 footer.site {
   color: #999999;
   background-color: #333333;
