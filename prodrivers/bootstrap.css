@@ -7104,21 +7104,21 @@ a.list-group-item-danger.active:focus {
   color: #ffffff;
   background-color: #222222;
 }
-.site-footer {
+footer.site {
   color: #999999;
   background-color: #333333;
   padding: 20px 0;
 }
-.site-footer h5 {
+footer.site h5 {
   font-size: 14px;
   color: inherit;
 }
 @media screen and (min-width: 768px) {
-  .site-footer .social-icons {
+  footer.site .social-icons {
     text-align: right;
   }
 }
-.site-footer .social-icons a {
+footer.site .social-icons a {
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -7132,14 +7132,14 @@ a.list-group-item-danger.active:focus {
   opacity: 0.8;
   background-color: #555555;
 }
-.site-footer .social-icons a:hover {
+footer.site .social-icons a:hover {
   opacity: 1;
 }
-.site-footer .social-icons a i {
+footer.site .social-icons a i {
   margin: 6px;
 }
 @media screen and (max-width: 768px) {
-  .site-footer {
+  footer.site {
     text-align: center;
   }
 }
