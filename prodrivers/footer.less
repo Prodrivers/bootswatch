@@ -1,0 +1,47 @@
+.site-footer {
+  color: @footer-color;
+  background-color: @footer-bg;
+  padding: 20px 0;
+
+  h5 {
+    font-size: @footer-font-size;
+    color: inherit;
+  }
+
+  .social-icons {
+
+    @media screen and (min-width: @grid-float-breakpoint) {
+      text-align: right;
+    }
+
+    a {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin: 4px;
+      border: none;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 20px;
+      line-height: 32px;
+      color: @footer-icon-color;
+      opacity: 0.8;
+      background-color: @footer-icon-bg;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      i {
+        margin: 6px;
+      }
+
+    }
+
+  }
+
+  @media screen and (max-width: @grid-float-breakpoint) {
+    text-align: center;
+  }
+
+}
