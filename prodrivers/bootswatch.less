@@ -328,7 +328,7 @@ a.list-group-item {
 }
 
 .hero {
-  margin-bottom: 0;
+  margin: 0;
   padding: 100px auto;
   text-align: center;
   color: @hero-color;
@@ -337,12 +337,8 @@ a.list-group-item {
   background-position: center top;
   background-size: cover;
 
-  .hero-title,
-  .hero-subtitle {
-    font-weight: 500;
-  }
-
   .hero-title {
+    font-weight: 500;
     text-shadow: 0 0 @hero-shadow-size @hero-shadow-color;
   }
 
@@ -369,6 +365,37 @@ a.list-group-item {
     .hero-subtitle {
       text-shadow: 0 0 @hero-subtitle-shadow-size @hero-subtitle-shadow-inverse-color;
       background-color: @hero-subtitle-inverse-bg;
+    }
+  }
+
+  .hero-full {
+    min-height: 100%;
+  }
+
+  .hero-wide {
+    padding: 20vh 0;
+  }
+
+  .hero-logo {
+    max-width: 512px;
+    margin: auto;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      padding: 0 1em;
+    }
+  }
+
+  &-darker {
+    .hero-subtitle {
+      background-color: rgba(0,0,0,0.5);
+    }
+  }
+
+  &-lighter {
+      .hero-subtitle {
+      background-color: rgba(255,255,255,0.5);
     }
   }
 }

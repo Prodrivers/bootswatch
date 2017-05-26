@@ -6980,7 +6980,7 @@ a.list-group-item-danger.active:focus {
   color: #333333;
 }
 .hero {
-  margin-bottom: 0;
+  margin: 0;
   padding: 100px auto;
   text-align: center;
   color: inherit;
@@ -6990,11 +6990,8 @@ a.list-group-item-danger.active:focus {
   -webkit-background-size: cover;
           background-size: cover;
 }
-.hero .hero-title,
-.hero .hero-subtitle {
-  font-weight: 500;
-}
 .hero .hero-title {
+  font-weight: 500;
   text-shadow: 0 0 5px #e6e6e6;
 }
 .hero .hero-subtitle {
@@ -7017,6 +7014,27 @@ a.list-group-item-danger.active:focus {
 .hero-inverse .hero-subtitle {
   text-shadow: 0 0 2px #222222;
   background-color: rgba(0, 0, 0, 0.2);
+}
+.hero .hero-full {
+  min-height: 100%;
+}
+.hero .hero-wide {
+  padding: 20vh 0;
+}
+.hero .hero-logo {
+  max-width: 512px;
+  margin: auto;
+}
+.hero .hero-logo img {
+  max-width: 100%;
+  height: auto;
+  padding: 0 1em;
+}
+.hero-darker .hero-subtitle {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-lighter .hero-subtitle {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .hero-icons {
   padding: 40px 0;
