@@ -7104,6 +7104,62 @@ a.list-group-item-danger.active:focus {
   color: #ffffff;
   background-color: #222222;
 }
+header.page {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  max-height: 350px;
+  overflow: hidden;
+  text-align: center;
+  background: #EEEFF5;
+  color: #555555;
+  padding: 0;
+  margin: 0;
+  border-bottom: 0;
+}
+header.page .block {
+  width: 85%;
+  margin: 40px auto;
+}
+header.page h1 {
+  margin: 0;
+  padding: inherit;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #555555;
+}
+header.page-image {
+  min-height: 250px;
+}
+header.page-image .background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  background-color: #555;
+  background-attachment: fixed;
+  background-position: bottom;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+header.page-image .inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1em;
+}
+header.page-image h1 {
+  color: #E5E5E5;
+  text-shadow: 0 0 2em #555;
+}
 footer.site {
   color: #999999;
   background-color: #333333;
