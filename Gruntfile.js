@@ -24,8 +24,8 @@ module.exports = function (grunt) {
     swatch: {
       amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, darkly:{},
       flatly:{}, journal:{}, lumen:{}, paper:{}, prodrivers:{},
-      readable:{}, sandstone:{}, simplex:{}, slate:{}, spacelab:{},
-      superhero:{}, united:{}, yeti:{}, custom:{}
+      readable:{}, sandstone:{}, simplex:{}, slate:{}, solar:{},
+      spacelab:{}, superhero:{}, united:{}, yeti:{}, custom:{}
     },
     clean: {
       build: {
@@ -203,9 +203,9 @@ grunt.registerTask('build_scss', 'build a regular theme from scss', function(the
   * Regex borrowed form
   * https://gist.github.com/rosskevin/ddfe895091de2ca5f931
   * */
-  grunt.registerTask('convert_less', 'Convert less to scss using regular expression', function () {
+  grunt.registerTask('convert_less', 'Convert less to scss using regular expression', function (theme) {
     var convertBaseDir = '';
-    grunt.file.expand(convertBaseDir + '*/*.less').forEach(function (lessFile) {
+    grunt.file.expand(convertBaseDir + (theme ? ('*' + theme) : '*') + '/*.less').forEach(function (lessFile) {
       if (lessFile !=="global/build.less"){
         var srcContents = grunt.file.read(lessFile);
         var out = srcContents
