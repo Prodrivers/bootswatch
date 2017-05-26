@@ -327,12 +327,12 @@ a.list-group-item {
   color: @text-color;
 }
 
-.hero-image {
+.hero {
   margin-bottom: 0;
   padding: 100px auto;
   text-align: center;
-  color: @hero-image-color;
-  background-color: @hero-image-bg;
+  color: @hero-color;
+  background-color: @hero-bg;
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
@@ -343,15 +343,15 @@ a.list-group-item {
   }
 
   .hero-title {
-    text-shadow: 0 0 @hero-image-shadow-size @hero-image-shadow-color;
+    text-shadow: 0 0 @hero-shadow-size @hero-shadow-color;
   }
 
   .hero-subtitle {
     margin: 25px auto;
     padding: 10px 15px;
-    max-width: @hero-image-subtitle-width;
-    text-shadow: 0 0 @hero-image-subtitle-shadow-size @hero-image-subtitle-shadow-color;
-    background-color: @hero-image-subtitle-bg;
+    max-width: @hero-subtitle-width;
+    text-shadow: 0 0 @hero-subtitle-shadow-size @hero-subtitle-shadow-color;
+    background-color: @hero-subtitle-bg;
   }
 
   .btn {
@@ -359,16 +359,16 @@ a.list-group-item {
   }
 
   &-inverse {
-    color: @hero-image-inverse-color;
-    background-color: @hero-image-inverse-bg;
+    color: @hero-inverse-color;
+    background-color: @hero-inverse-bg;
 
     .hero-title {
-      text-shadow: 0 0 @hero-image-shadow-size @hero-image-shadow-inverse-color;
+      text-shadow: 0 0 @hero-shadow-size @hero-shadow-inverse-color;
     }
 
     .hero-subtitle {
-      text-shadow: 0 0 @hero-image-subtitle-shadow-size @hero-image-subtitle-shadow-inverse-color;
-      background-color: @hero-image-subtitle-inverse-bg;
+      text-shadow: 0 0 @hero-subtitle-shadow-size @hero-subtitle-shadow-inverse-color;
+      background-color: @hero-subtitle-inverse-bg;
     }
   }
 }

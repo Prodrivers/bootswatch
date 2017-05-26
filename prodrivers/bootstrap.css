@@ -6979,7 +6979,7 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #333333;
 }
-.hero-image {
+.hero {
   margin-bottom: 0;
   padding: 100px auto;
   text-align: center;
@@ -6990,31 +6990,31 @@ a.list-group-item-danger.active:focus {
   -webkit-background-size: cover;
           background-size: cover;
 }
-.hero-image .hero-title,
-.hero-image .hero-subtitle {
+.hero .hero-title,
+.hero .hero-subtitle {
   font-weight: 500;
 }
-.hero-image .hero-title {
+.hero .hero-title {
   text-shadow: 0 0 5px #e6e6e6;
 }
-.hero-image .hero-subtitle {
+.hero .hero-subtitle {
   margin: 25px auto;
   padding: 10px 15px;
   max-width: 600px;
   text-shadow: 0 0 2px #e6e6e6;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.hero-image .btn {
+.hero .btn {
   margin: 0.5em;
 }
-.hero-image-inverse {
+.hero-inverse {
   color: #ffffff;
   background-color: #222222;
 }
-.hero-image-inverse .hero-title {
+.hero-inverse .hero-title {
   text-shadow: 0 0 5px #222222;
 }
-.hero-image-inverse .hero-subtitle {
+.hero-inverse .hero-subtitle {
   text-shadow: 0 0 2px #222222;
   background-color: rgba(0, 0, 0, 0.2);
 }
