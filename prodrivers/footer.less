@@ -8,6 +8,42 @@ footer.site {
     color: inherit;
   }
 
+  .infos {
+    margin-bottom: 2em;
+
+    > * {
+      vertical-align: middle;
+    }
+
+    li {
+      a {
+        color: #fff;
+      }
+
+      &:hover, &.open {
+        a {
+          color: #333;
+        }
+      }
+    }
+
+    img {
+      height: 50px;
+    }
+
+    @media screen and (max-width: @grid-float-breakpoint) {
+      ul li {
+        float: none;
+        display: inline-block;
+        text-align: center;
+      }
+
+      > *:not(:first-child) {
+        margin-top: 2em;
+      }
+    }
+  }
+
   .social-icons {
 
     @media screen and (min-width: @grid-float-breakpoint) {

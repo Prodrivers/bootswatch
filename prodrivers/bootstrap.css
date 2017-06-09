@@ -7180,6 +7180,32 @@ footer.site h5 {
   font-size: 14px;
   color: inherit;
 }
+footer.site .infos {
+  margin-bottom: 2em;
+}
+footer.site .infos > * {
+  vertical-align: middle;
+}
+footer.site .infos li a {
+  color: #fff;
+}
+footer.site .infos li:hover a,
+footer.site .infos li.open a {
+  color: #333;
+}
+footer.site .infos img {
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
+  footer.site .infos ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+  footer.site .infos > *:not(:first-child) {
+    margin-top: 2em;
+  }
+}
 @media screen and (min-width: 768px) {
   footer.site .social-icons {
     text-align: right;
