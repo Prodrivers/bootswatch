@@ -6981,7 +6981,7 @@ a.list-group-item-danger.active:focus {
 }
 .hero {
   margin: 0;
-  padding: 100px auto;
+  padding: 30px 0;
   text-align: center;
   color: inherit;
   background-color: #e6e6e6;
