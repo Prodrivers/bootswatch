@@ -7089,6 +7089,10 @@ a.list-group-item-danger.active:focus {
 .hero-icons .icon .fa {
   font-size: 60px;
 }
+.hero-icons a.icon {
+  color: inherit;
+  text-decoration: none;
+}
 .hero-icons-inverse {
   color: #ffffff;
   background-color: #222222;

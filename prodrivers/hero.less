@@ -126,11 +126,15 @@
   .icon {
     margin-top: 15px;
     text-align: center;
+
+    .glyphicon, .fa {
+      font-size: @hero-icons-icon-size;
+    }
   }
 
-  .icon .glyphicon,
-  .icon .fa {
-    font-size: @hero-icons-icon-size;
+  a.icon {
+    color: inherit;
+    text-decoration: none;
   }
 
   &-inverse {
