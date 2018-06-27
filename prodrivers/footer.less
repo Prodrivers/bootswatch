@@ -20,9 +20,10 @@ footer.site {
         color: #fff;
       }
 
-      &:hover, &.open {
+      &:hover, &:focus, &.open {
         a {
           color: #333;
+          text-shadow: none;
         }
       }
     }
@@ -63,8 +64,9 @@ footer.site {
       color: @footer-icon-color;
       opacity: 0.8;
       background-color: @footer-icon-bg;
+      text-shadow: none;
 
-      &:hover {
+      &:hover, &:focus {
         opacity: 1;
       }
 
@@ -80,4 +82,15 @@ footer.site {
     text-align: center;
   }
 
+
+  &.footer-transparent {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 0 0 10px #333!important;
+
+    .social-icons a {
+      color: @footer-bg;
+      background-color: #fff;
+    }
+  }
 }
