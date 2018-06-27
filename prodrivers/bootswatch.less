@@ -14,75 +14,7 @@
 
 // Navbar =====================================================================
 
-.navbar {
-  border: none;
-  margin-bottom: 0;
-
-  &-inverse {
-
-    .badge {
-      background-color: #fff;
-      color: @brand-primary;
-    }
-
-  }
-
-  &-no-margin {
-    margin-bottom: 0;
-  }
-
-  .navbar-brand.logo {
-    padding: 0;
-
-    & > img {
-      display: block;
-      height: 50px;
-      margin: 17px;
-    }
-  }
-
-}
-
-.navbar-nav {
-
-  li {
-    a {
-      font-size: @font-size-small;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-  }
-
-  @media screen and (min-width: @grid-float-breakpoint) {
-
-    & > li {
-
-      &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        left: @navbar-padding-horizontal;
-        right: @navbar-padding-horizontal;
-        bottom: 15px;
-        width: 0;
-        height: 2px;
-        margin: 0 auto;
-        background-color: @navbar-default-link-color;
-        transition: all 0.2s ease-out;
-      }
-
-      &:hover::after {
-        width: 80%;
-        width: calc( 100% - 2 * @navbar-padding-horizontal );
-        bottom: 20px;
-      }
-
-    }
-
-  }
-
-}
+@import "navbar.less";
 
 // Buttons ====================================================================
 
