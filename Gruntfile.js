@@ -7,7 +7,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  var configBridge = grunt.file.readJSON('./bower_components/bootstrap/grunt/configBridge.json', { encoding: 'utf8' });
+  var configBridge = grunt.file.readJSON('./node_modules/bootstrap/grunt/configBridge.json', { encoding: 'utf8' });
 
   // Project configuration.
   grunt.initConfig({
