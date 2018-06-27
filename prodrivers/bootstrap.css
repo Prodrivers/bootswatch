@@ -3,7 +3,7 @@
 /*!
  * bootswatch v3.3.7
  * Homepage: http://bootswatch.com
- * Copyright 2012-2017 Thomas Park
+ * Copyright 2012-2018 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -1087,7 +1087,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Calibri, Candara, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
@@ -1188,7 +1188,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Calibri, Candara, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
@@ -5995,7 +5995,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6113,7 +6113,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Calibri, Candara, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6764,6 +6764,9 @@ button.close {
   background-color: #fff;
   color: #19c2c8;
 }
+.navbar-transparent {
+  background: transparent;
+}
 .navbar-no-margin {
   margin-bottom: 0;
 }
@@ -6806,6 +6809,7 @@ button.close {
 }
 body {
   -webkit-font-smoothing: antialiased;
+  background-color: #333333;
 }
 .text-primary,
 .text-primary:hover {
@@ -7119,7 +7123,7 @@ header.page {
   max-height: 350px;
   overflow: hidden;
   text-align: center;
-  background: #EEEFF5;
+  background: #eeeff5;
   color: #555555;
   padding: 0;
   margin: 0;
@@ -7169,6 +7173,7 @@ header.page-image h1 {
   text-shadow: 0 0 2em #555;
 }
 .page-content {
+  background-color: #ffffff;
   margin-top: 30px;
   padding: 1em;
   padding-bottom: 3em;
@@ -7194,8 +7199,10 @@ footer.site .infos li a {
   color: #fff;
 }
 footer.site .infos li:hover a,
+footer.site .infos li:focus a,
 footer.site .infos li.open a {
   color: #333;
+  text-shadow: none;
 }
 footer.site .infos img {
   height: 50px;
@@ -7228,8 +7235,10 @@ footer.site .social-icons a {
   color: #ffffff;
   opacity: 0.8;
   background-color: #555555;
+  text-shadow: none;
 }
-footer.site .social-icons a:hover {
+footer.site .social-icons a:hover,
+footer.site .social-icons a:focus {
   opacity: 1;
 }
 footer.site .social-icons a i {
@@ -7239,4 +7248,13 @@ footer.site .social-icons a i {
   footer.site {
     text-align: center;
   }
+}
+footer.site.footer-transparent {
+  background-color: transparent;
+  color: #fff;
+  text-shadow: 0 0 10px #333!important;
+}
+footer.site.footer-transparent .social-icons a {
+  color: #333333;
+  background-color: #fff;
 }
