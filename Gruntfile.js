@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             ' * Homepage: <%= pkg.homepage %>\n' +
             ' * Copyright 2012-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under <%= pkg.license %>\n' +
-            ' * Based on Bootstrap\n' +
+            ' * Based on Bootswatch and Bootstrap\n' +
             '*/\n',
     swatch: {
       prodrivers:{}

@@ -1,11 +1,11 @@
 {
-    "name": "horgeon/bootswatch-prodrivers",
-    "description": "Themes for Bootstrap",
+    "name": "Prodrivers/bootswatch",
+    "description": "Prodrivers Bootswatch theme",
     "license": "MIT",
     "authors": [
         {
-            "name": "Horgeon",
-            "email": "me@horgeon.fr"
+            "name": "Prodrivers",
+            "email": "sources@prodrivers.fr"
         },
         {
             "name": "thomaspark",

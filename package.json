@@ -1,13 +1,13 @@
 {
-  "name": "bootswatch",
-  "description": "Bootswatch is a collection of themes for Bootstrap.",
-  "version": "3.3.7",
-  "author": "Thomas Park",
-  "homepage": "http://bootswatch.com",
+  "name": "prodrivers-bootswatch",
+  "description": "Prodrivers Bootswatch theme",
+  "version": "3.3.7.12",
+  "author": "Prodrivers",
+  "homepage": "http://bootswatch.sources.prodrivers.fr/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomaspark/bootswatch.git"
+    "url": "https://github.com/Prodrivers/bootswatch.git"
   },
   "engines": {
     "node": ">= 0.10.0"
